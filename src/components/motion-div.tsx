@@ -5,6 +5,7 @@ import { ReactElement, useEffect, useRef } from "react";
 export default function MotionDiv({
   children,
   delayOffset,
+  className,
 }: {
   children: ReactElement | string;
   delayOffset?: number;
@@ -22,7 +23,7 @@ export default function MotionDiv({
   return (
     <motion.div
       ref={ref}
-      className={cn("relative flex items-center justify-center")}
+      className={cn("relative flex items-center justify-center", className)}
       initial={{ y: 100, opacity: 0 }}
       animate={controls}
       transition={{

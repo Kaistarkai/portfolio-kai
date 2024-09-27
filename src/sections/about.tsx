@@ -14,17 +14,38 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Kelly Chen, a full-stack developer based in Santa Clara, California. I am a recent graduate from the Northeastern University, with a Master's degree in Computer Software Engineering.
+              Hi, I’m Kelly Chen, a results-driven Product Manager and Software
+              Engineer with a passion for designing innovative digital
+              solutions. I specialize in taking projects from concept to launch,
+              blending technical expertise with a deep understanding of user
+              needs to deliver impactful products. With extensive experience
+              managing complex B2B platforms, I excel at solving real-world
+              problems and bringing creative ideas to life.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
             <p>
-              test
+              Throughout my career, I’ve successfully led the development of
+              <b> 4 enterprise products </b>, including IT service management
+              platforms, conference room systems, and event management
+              solutions. My technical expertise spans full-stack development,
+              utilizing technologies such as <b> TypeScript, React, Next.js,
+              Node.js, and PostgreSQL </b>. While at ByteDance, my product helped the
+              company <b> save $2.4 million </b> in IT operational costs and enhanced global
+              IT service management.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.6}>
             <p>
-              test
+              You can always trust me because I am a self-driven problem solver
+              who dares to make decisions and is adept at seeking solutions.
+            </p>
+          </MotionDiv>
+          <MotionDiv delayOffset={0.7}>
+            <p>
+              I’m currently seeking new opportunities to leverage my skills and
+              experience in product management and software development. Let’s
+              connect!
             </p>
           </MotionDiv>
         </article>

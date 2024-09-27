@@ -25,19 +25,18 @@ export default function hero() {
         </MotionDiv>
       </div>
       <h1>
-        <MotionDiv delayOffset={0.8}>Developer 🧑🏻‍💻</MotionDiv>
+        <MotionDiv delayOffset={0.8}>Software Developer 🧑🏻‍💻</MotionDiv>
       </h1>
       <h1>
         <MotionDiv delayOffset={1}>Product Manager 👩‍💼</MotionDiv>
       </h1>
       <div className="my-12 flex w-full flex-col gap-2 text-center lg:w-[50%]">
         <MotionDiv delayOffset={1.2}>
-          <p>Welcome to my personal page!</p>
+          <p>Welcome to my website!</p>
         </MotionDiv>
         <MotionDiv delayOffset={1.4}>
           <p>
-            Just an indie<b> ✨ TypeScript Full-Stack </b>developer who loves to
-            build something cool.
+            I'm a <b> ✨ Full-Stack </b>  Developer with a <b> keen product sense </b>, passionate about building cool things.
           </p>
         </MotionDiv>
       </div>
